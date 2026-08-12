@@ -96,7 +96,6 @@ celerybeat-schedule
 *.sage.py
 
 # Environments
-.env
 .venv
 .venv*
 env/
@@ -125,7 +124,6 @@ dmypy.json
 
 # vscode
 .vs
-.vscode
 
 # Pycharm
 .idea
@@ -183,3 +181,5 @@ test-results/
 # AI agent local setup artifacts
 /.agents/skills
 /.claude/skills
+config.bat
+node_modules

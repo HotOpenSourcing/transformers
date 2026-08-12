@@ -21,6 +21,10 @@ python benchmark/benchmark.py --config-dir benchmark/config --config-name genera
 ```
 """
 
+import utils.clients
+import utils.http_session
+import utils.transport
+import utils.session
 import argparse
 import glob
 import json
